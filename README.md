@@ -101,5 +101,5 @@ A partir disso podemos concluir que ____ ou __ é a nossa flag, então é necess
 cout << ____ << endl;
 cout << __ << endl;
 ```
-Onde obtemos nossa flag:
+Após compilar e executar, obtemos nossa flag:<br>
 ![image](https://github.com/stnert/cybersec-rev-pres/assets/91509232/5299519b-0dc6-4bd7-8325-6db9daf1e43b)
