@@ -1,6 +1,8 @@
 Challenge - Rev (Disciplina Segurança Cibernética - PPGCC UFSCar 2023) 
 https://ctf.knping.pl/challenges#python-rev-for-freaks-17
-![image](https://github.com/stnert/cybersec-rev-pres/assets/44845442/22d5d085-03bb-4ac5-ae79-e64e3e2bff00)
+
+![2023-12-14_21-42_1](https://github.com/stnert/cybersec-rev-pres/assets/48295298/9c2397f2-9507-412d-b67a-e1ee2f7863e2)
+
 
 
 solucao aqui
