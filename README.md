@@ -6,7 +6,7 @@ https://ctf.knping.pl/challenges#noodle-nightmare-6
 
 
 Esse problema fornece um arquivo noodleNightmare.cpp e uma pasta chamada spaghetti contando com mais de 100 arquivos onde cada um contém apenas um palavra ou operador. O arquivo principal é formado inteiramente por #include dos arquivos da pastas, então para conseguir ler esse programa devemos substituir esses includes pela respectiva palavra/operador. Por exemplo, logo no final do arquivo na linha 853 encontramos:
-'''
+```
 #include "spaghetti/dhokpbpcvzqlsolslehczhyqudugoqczubzjshwlrvsmnnsbji.cpp"
 
 #include "spaghetti/tcjbyqgtoylnpctxlgbcysapjpvqllgwzureosicdambypdocy.cpp"
@@ -48,9 +48,9 @@ Esse problema fornece um arquivo noodleNightmare.cpp e uma pasta chamada spaghet
 #include "spaghetti/gjzmlkoxjnastqhmykroyvvycsvujbspjbojqyydkfampwrujw.cpp"
 
 #include "spaghetti/xhfvwsawrgulvmvkkxnjknpngavtbmikgmbmlbdtekqcioyyey.cpp"
-'''
+```
 Substituindo os includes encontramos:
-'''
+```
 if
 
 ____
@@ -92,12 +92,12 @@ endl
 }
 
 }
-'''
+```
 
 A partir disso podemos concluir que ____ ou __ é a nossa flag, então é necessário incluir a impressão dessas variáveis:
-'''
+```
 cout << ____ << endl;
 cout << __ << endl;
-'''
+```
 Onde obtemos nossa flag:
 ![image](https://github.com/stnert/cybersec-rev-pres/assets/91509232/5299519b-0dc6-4bd7-8325-6db9daf1e43b)
